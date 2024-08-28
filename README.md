@@ -23,6 +23,7 @@ Numpy 2.0.2
 ```
 
 # Test results
+number-of-elements | used-cuda? | duration-seconds | result==expected  
 ```
 home/donclaveau3/.pyenv/versions/3.10.12/lib/python3.10/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
   warn(NumbaPerformanceWarning(msg))
